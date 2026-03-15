@@ -1,61 +1,27 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Início",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Sobre Nós",
       "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "Contato",
       "url": "/contact"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
-        }
-      ]
     }
   ],
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Termos de Uso",
+      "url": "/"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Política de Privacidade",
+      "url": "/"
     }
   ]
 }
+

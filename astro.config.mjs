@@ -1,5 +1,6 @@
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
+import keystatic from "@keystatic/astro";
 import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import AutoImport from "astro-auto-import";
@@ -55,6 +56,7 @@ export default defineConfig({
   fonts: fontsConfig,
   integrations: [
     react(),
+    keystatic(),
     sitemap(),
     AutoImport({
       imports: [
